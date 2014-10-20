@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B38444619F4D94300592743 /* TMYAbstractModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38444519F4D94300592743 /* TMYAbstractModel.m */; };
+		5B38444919F4DD0900592743 /* NSObject+TMYKvc.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B38444819F4DD0900592743 /* NSObject+TMYKvc.m */; };
+		5B7BDA7019F3793900A4F789 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA6F19F3793900A4F789 /* main.m */; };
+		5B7BDA7319F3793900A4F789 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA7219F3793900A4F789 /* AppDelegate.m */; };
+		5B7BDA7619F3793900A4F789 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA7519F3793900A4F789 /* ViewController.m */; };
+		5B7BDA7919F3793900A4F789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B7BDA7719F3793900A4F789 /* Main.storyboard */; };
+		5B7BDA7B19F3793900A4F789 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7BDA7A19F3793900A4F789 /* Images.xcassets */; };
+		5B7BDA7E19F3793900A4F789 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B7BDA7C19F3793900A4F789 /* LaunchScreen.xib */; };
+		5B7BDA8A19F3793900A4F789 /* KVCModelMapperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA8919F3793900A4F789 /* KVCModelMapperTests.m */; };
+		5B7BDA9619F379D300A4F789 /* TMYUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA9519F379D300A4F789 /* TMYUser.m */; };
+		5B7BDA9919F37A4700A4F789 /* TMYAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7BDA9819F37A4700A4F789 /* TMYAddress.m */; };
+		5B7BDA9C19F37B3B00A4F789 /* user.json in Resources */ = {isa = PBXBuildFile; fileRef = 5B7BDA9A19F37B3B00A4F789 /* user.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B7BDA8419F3793900A4F789 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B7BDA6219F3793800A4F789 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B7BDA6919F3793800A4F789;
+			remoteInfo = KVCModelMapper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B38444419F4D94300592743 /* TMYAbstractModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMYAbstractModel.h; path = classes/Model/TMYAbstractModel.h; sourceTree = "<group>"; };
+		5B38444519F4D94300592743 /* TMYAbstractModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMYAbstractModel.m; path = classes/Model/TMYAbstractModel.m; sourceTree = "<group>"; };
+		5B38444719F4DD0900592743 /* NSObject+TMYKvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+TMYKvc.h"; path = "classes/Model/NSObject+TMYKvc.h"; sourceTree = "<group>"; };
+		5B38444819F4DD0900592743 /* NSObject+TMYKvc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+TMYKvc.m"; path = "classes/Model/NSObject+TMYKvc.m"; sourceTree = "<group>"; };
+		5B7BDA6A19F3793800A4F789 /* KVCModelMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KVCModelMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7BDA6E19F3793900A4F789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7BDA6F19F3793900A4F789 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B7BDA7119F3793900A4F789 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B7BDA7219F3793900A4F789 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B7BDA7419F3793900A4F789 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5B7BDA7519F3793900A4F789 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5B7BDA7819F3793900A4F789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B7BDA7A19F3793900A4F789 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B7BDA7D19F3793900A4F789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B7BDA8319F3793900A4F789 /* KVCModelMapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KVCModelMapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7BDA8819F3793900A4F789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7BDA8919F3793900A4F789 /* KVCModelMapperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCModelMapperTests.m; sourceTree = "<group>"; };
+		5B7BDA9419F379D300A4F789 /* TMYUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMYUser.h; path = classes/Model/TMYUser.h; sourceTree = "<group>"; };
+		5B7BDA9519F379D300A4F789 /* TMYUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMYUser.m; path = classes/Model/TMYUser.m; sourceTree = "<group>"; };
+		5B7BDA9719F37A4700A4F789 /* TMYAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMYAddress.h; path = classes/Model/TMYAddress.h; sourceTree = "<group>"; };
+		5B7BDA9819F37A4700A4F789 /* TMYAddress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TMYAddress.m; path = classes/Model/TMYAddress.m; sourceTree = "<group>"; };
+		5B7BDA9A19F37B3B00A4F789 /* user.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = user.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7BDA6719F3793800A4F789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7BDA8019F3793900A4F789 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7BDA6119F3793800A4F789 = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA6C19F3793800A4F789 /* KVCModelMapper */,
+				5B7BDA8619F3793900A4F789 /* KVCModelMapperTests */,
+				5B7BDA6B19F3793800A4F789 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7BDA6B19F3793800A4F789 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA6A19F3793800A4F789 /* KVCModelMapper.app */,
+				5B7BDA8319F3793900A4F789 /* KVCModelMapperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7BDA6C19F3793800A4F789 /* KVCModelMapper */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA7119F3793900A4F789 /* AppDelegate.h */,
+				5B7BDA7219F3793900A4F789 /* AppDelegate.m */,
+				5B7BDA7419F3793900A4F789 /* ViewController.h */,
+				5B7BDA7519F3793900A4F789 /* ViewController.m */,
+				5B7BDA9319F379A200A4F789 /* Model */,
+				5B7BDA7719F3793900A4F789 /* Main.storyboard */,
+				5B7BDA7A19F3793900A4F789 /* Images.xcassets */,
+				5B7BDA7C19F3793900A4F789 /* LaunchScreen.xib */,
+				5B7BDA6D19F3793900A4F789 /* Supporting Files */,
+			);
+			path = KVCModelMapper;
+			sourceTree = "<group>";
+		};
+		5B7BDA6D19F3793900A4F789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA6E19F3793900A4F789 /* Info.plist */,
+				5B7BDA6F19F3793900A4F789 /* main.m */,
+				5B7BDA9A19F37B3B00A4F789 /* user.json */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7BDA8619F3793900A4F789 /* KVCModelMapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA8919F3793900A4F789 /* KVCModelMapperTests.m */,
+				5B7BDA8719F3793900A4F789 /* Supporting Files */,
+			);
+			path = KVCModelMapperTests;
+			sourceTree = "<group>";
+		};
+		5B7BDA8719F3793900A4F789 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA8819F3793900A4F789 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B7BDA9319F379A200A4F789 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B7BDA9419F379D300A4F789 /* TMYUser.h */,
+				5B7BDA9519F379D300A4F789 /* TMYUser.m */,
+				5B7BDA9719F37A4700A4F789 /* TMYAddress.h */,
+				5B7BDA9819F37A4700A4F789 /* TMYAddress.m */,
+				5B38444419F4D94300592743 /* TMYAbstractModel.h */,
+				5B38444519F4D94300592743 /* TMYAbstractModel.m */,
+				5B38444719F4DD0900592743 /* NSObject+TMYKvc.h */,
+				5B38444819F4DD0900592743 /* NSObject+TMYKvc.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7BDA6919F3793800A4F789 /* KVCModelMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7BDA8D19F3793900A4F789 /* Build configuration list for PBXNativeTarget "KVCModelMapper" */;
+			buildPhases = (
+				5B7BDA6619F3793800A4F789 /* Sources */,
+				5B7BDA6719F3793800A4F789 /* Frameworks */,
+				5B7BDA6819F3793800A4F789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVCModelMapper;
+			productName = KVCModelMapper;
+			productReference = 5B7BDA6A19F3793800A4F789 /* KVCModelMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B7BDA8219F3793900A4F789 /* KVCModelMapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7BDA9019F3793900A4F789 /* Build configuration list for PBXNativeTarget "KVCModelMapperTests" */;
+			buildPhases = (
+				5B7BDA7F19F3793900A4F789 /* Sources */,
+				5B7BDA8019F3793900A4F789 /* Frameworks */,
+				5B7BDA8119F3793900A4F789 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B7BDA8519F3793900A4F789 /* PBXTargetDependency */,
+			);
+			name = KVCModelMapperTests;
+			productName = KVCModelMapperTests;
+			productReference = 5B7BDA8319F3793900A4F789 /* KVCModelMapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7BDA6219F3793800A4F789 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "角田 智哉";
+				TargetAttributes = {
+					5B7BDA6919F3793800A4F789 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					5B7BDA8219F3793900A4F789 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 5B7BDA6919F3793800A4F789;
+					};
+				};
+			};
+			buildConfigurationList = 5B7BDA6519F3793800A4F789 /* Build configuration list for PBXProject "KVCModelMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B7BDA6119F3793800A4F789;
+			productRefGroup = 5B7BDA6B19F3793800A4F789 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7BDA6919F3793800A4F789 /* KVCModelMapper */,
+				5B7BDA8219F3793900A4F789 /* KVCModelMapperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7BDA6819F3793800A4F789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7BDA9C19F37B3B00A4F789 /* user.json in Resources */,
+				5B7BDA7919F3793900A4F789 /* Main.storyboard in Resources */,
+				5B7BDA7E19F3793900A4F789 /* LaunchScreen.xib in Resources */,
+				5B7BDA7B19F3793900A4F789 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7BDA8119F3793900A4F789 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7BDA6619F3793800A4F789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B38444619F4D94300592743 /* TMYAbstractModel.m in Sources */,
+				5B7BDA9919F37A4700A4F789 /* TMYAddress.m in Sources */,
+				5B7BDA7619F3793900A4F789 /* ViewController.m in Sources */,
+				5B38444919F4DD0900592743 /* NSObject+TMYKvc.m in Sources */,
+				5B7BDA9619F379D300A4F789 /* TMYUser.m in Sources */,
+				5B7BDA7319F3793900A4F789 /* AppDelegate.m in Sources */,
+				5B7BDA7019F3793900A4F789 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7BDA7F19F3793900A4F789 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7BDA8A19F3793900A4F789 /* KVCModelMapperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B7BDA8519F3793900A4F789 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B7BDA6919F3793800A4F789 /* KVCModelMapper */;
+			targetProxy = 5B7BDA8419F3793900A4F789 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B7BDA7719F3793900A4F789 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7BDA7819F3793900A4F789 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B7BDA7C19F3793900A4F789 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7BDA7D19F3793900A4F789 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B7BDA8B19F3793900A4F789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B7BDA8C19F3793900A4F789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7BDA8E19F3793900A4F789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVCModelMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B7BDA8F19F3793900A4F789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KVCModelMapper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B7BDA9119F3793900A4F789 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVCModelMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVCModelMapper.app/KVCModelMapper";
+			};
+			name = Debug;
+		};
+		5B7BDA9219F3793900A4F789 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KVCModelMapperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KVCModelMapper.app/KVCModelMapper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7BDA6519F3793800A4F789 /* Build configuration list for PBXProject "KVCModelMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7BDA8B19F3793900A4F789 /* Debug */,
+				5B7BDA8C19F3793900A4F789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7BDA8D19F3793900A4F789 /* Build configuration list for PBXNativeTarget "KVCModelMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7BDA8E19F3793900A4F789 /* Debug */,
+				5B7BDA8F19F3793900A4F789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7BDA9019F3793900A4F789 /* Build configuration list for PBXNativeTarget "KVCModelMapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7BDA9119F3793900A4F789 /* Debug */,
+				5B7BDA9219F3793900A4F789 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7BDA6219F3793800A4F789 /* Project object */;
+}

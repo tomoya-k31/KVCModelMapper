@@ -1,0 +1,10 @@
+{
+    "user_id":12345,
+    "address":{
+               "zip":"123-4567",
+               "city":"tokyo",
+    },
+    "full_name":"tomoya kakuda",
+    "nick_name":"tomo",
+    "birth_date":"1988/03/01"
+}
