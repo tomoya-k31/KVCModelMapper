@@ -44,18 +44,6 @@
     return nil;
 }
 
-- (NSString *)description
-{
-    NSMutableString *descriptionString = [NSMutableString new];
-    [descriptionString appendString:[NSString stringWithFormat:@"%@\n", [super description]]];
-    NSArray *allKeys = [[self class] allKeys];
-    
-    [allKeys enumerateObjectsUsingBlock:^(NSString *key, NSUInteger idx, BOOL *stop) {
-        NSString *appendedString = [NSString stringWithFormat:@"%@ : %@ \n", key, [self valueForKey:key]];
-        [descriptionString appendString:appendedString];
-    }];
-    
-    return [NSString stringWithString:descriptionString];
-}
+
 
 @end

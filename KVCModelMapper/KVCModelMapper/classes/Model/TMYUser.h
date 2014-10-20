@@ -15,6 +15,7 @@
 @property (nonatomic) TMYAddress *address;
 
 @property NSUInteger userId;
+@property NSUInteger point;
 @property (nonatomic) NSString *fullName;
 @property (nonatomic) NSString *nickName;
 @property (nonatomic) NSString *birthDate;
